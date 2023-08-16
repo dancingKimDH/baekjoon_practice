@@ -18,9 +18,11 @@ public class no_10951 {
             System.out.println(c);
         }
 
+        sc.close();
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
+        
 
     }
 

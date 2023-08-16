@@ -31,5 +31,7 @@ public class no_2438 {
             System.out.println();
             a = a + 1;
         }
+    sc.close();
     }
+
 }

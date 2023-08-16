@@ -22,7 +22,7 @@ public class no_10952 {
                 }
 
             }
-
+            sc.close();
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }

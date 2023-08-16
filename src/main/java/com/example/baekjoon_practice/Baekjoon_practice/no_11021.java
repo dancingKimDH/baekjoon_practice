@@ -23,6 +23,7 @@ public class no_11021 {
                 System.out.println("Case #" + e + ": " + (b + c));
 
             }
+            scanner.close();
 
         } catch (Exception e) {
          System.out.println(e.getMessage());
@@ -49,7 +50,7 @@ public class no_11021 {
                 int e = a + 1;
                 System.out.println("Case #" + e + ": " + d);
             }
-
+            scanner.close();
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
