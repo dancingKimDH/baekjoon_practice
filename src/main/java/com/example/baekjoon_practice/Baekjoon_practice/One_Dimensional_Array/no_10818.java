@@ -1,4 +1,4 @@
-package com.example.baekjoon_practice.Baekjoon_practice;
+package com.example.baekjoon_practice.Baekjoon_practice.One_Dimensional_Array;
 
 import java.util.Scanner;
 
