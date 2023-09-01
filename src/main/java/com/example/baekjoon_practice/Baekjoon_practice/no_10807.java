@@ -2,27 +2,32 @@ package com.example.baekjoon_practice.Baekjoon_practice;
 
 import java.util.Scanner;
 
-public class no_10871 {
-
+public class no_10807 {
+    
     public static void main(String[] args) {
+        
         try {
+            
             Scanner sc = new Scanner(System.in);
             int a = sc.nextInt();
+            int[] list = new int[a];
+            for (int i = 0; i < a; i = i + 1) {
+                list[i] = sc.nextInt();
+            }
             int b = sc.nextInt();
-            int[] sentence = new int[a];
-            for (int i = 0; i < a; i++) {
-                sentence[i] = sc.nextInt();
-            }
-
-            for (int num : sentence) {
-                if (num < b) {
-                    System.out.print(num + " ");
+            int result = 0;
+            for (int num : list) {
+                if (num == b) {
+                    result = result + 1;
                 }
-
             }
+            System.out.println(result);
             sc.close();
+
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
+
     }
+
 }

@@ -29,6 +29,7 @@ public class no_10818 {
             
             System.out.print(min + " " + max);
 
+            sc.close();
 
         } catch (Exception e) {
             System.out.println(e.getMessage());
