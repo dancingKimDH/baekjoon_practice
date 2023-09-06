@@ -42,6 +42,8 @@ public class no_2562 {
             System.out.println(max);
             System.out.println(i);
 
+            sc.close();
+            
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
