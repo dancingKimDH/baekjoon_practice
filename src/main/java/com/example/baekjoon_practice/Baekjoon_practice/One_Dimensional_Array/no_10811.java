@@ -15,13 +15,13 @@ public class no_10811 {
         }
         int t = 0;
         int M = sc.nextInt();
-        for(int a = 0; a <= M; a ++) {
+        for(int a = 0; a < M; a ++) {
             int i = sc.nextInt(); 
             int j = sc.nextInt();
-            for(int x = i - 1; x < j - 1; x ++ ){
+            for(int x = i; x < j - 1; x ++ ){
                 t = group[i - 1];
-                group[i - 1] = group[j - x - 1];
-                group[j - x - 1] = t;
+                group[i - 1] = group[j - x];
+                group[j - x] = t;
                 System.out.println("round completed");
             }
         }
