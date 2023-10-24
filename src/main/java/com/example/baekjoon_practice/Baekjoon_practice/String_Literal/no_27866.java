@@ -12,6 +12,7 @@ public class no_27866 {
 
         char[] charArray = S.toCharArray();
         System.out.println(charArray[i - 1]);
+        sc.close();
     }
     
 }

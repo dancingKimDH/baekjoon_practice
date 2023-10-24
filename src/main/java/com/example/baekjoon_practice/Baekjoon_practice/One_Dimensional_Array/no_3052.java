@@ -1,7 +1,6 @@
 package com.example.baekjoon_practice.Baekjoon_practice.One_Dimensional_Array;
 
-import java.util.ArrayList;
-import java.util.HashSet;
+
 import java.util.Scanner;
 
 public class no_3052 {
@@ -37,6 +36,7 @@ public class no_3052 {
                  count = count + 1;   
                 }
             }
+            sc.close();
 
 
         } catch (Exception e) {

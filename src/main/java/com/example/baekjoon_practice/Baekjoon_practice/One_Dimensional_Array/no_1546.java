@@ -35,6 +35,7 @@ public class no_1546 {
 
         result = (double) sum * 100 / N / M;
         System.out.println(result);
+        sc.close();
 
     }
 }

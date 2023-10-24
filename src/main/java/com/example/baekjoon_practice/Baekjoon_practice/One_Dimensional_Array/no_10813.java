@@ -36,5 +36,7 @@ public class no_10813 {
             //  여기서 N 대신 A.length를 사용할 수 있음!
 
         }
+
+        sc.close();
     }
 }

@@ -1,6 +1,5 @@
 package com.example.baekjoon_practice.Baekjoon_practice.One_Dimensional_Array;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class no_10811 {
@@ -32,6 +31,8 @@ public class no_10811 {
         for (int a = 0; a < group.length; a++) {
             System.out.println(group[a]);
         }
+
+        sc.close();
 
     }
 }

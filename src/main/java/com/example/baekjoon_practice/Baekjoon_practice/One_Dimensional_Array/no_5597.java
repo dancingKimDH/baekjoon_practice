@@ -45,6 +45,8 @@ public class no_5597 {
                 System.out.println(x);
             }
 
+            sc.close();
+
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
