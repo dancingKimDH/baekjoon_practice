@@ -1,4 +1,4 @@
-package com.example.baekjoon_practice.Baekjoon_practice;
+package com.example.baekjoon_practice.Baekjoon_practice._etc;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
